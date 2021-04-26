@@ -1,0 +1,17 @@
+.button-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 20px;
+    background-color: #818181;
+    color: #dfdfdf;
+    font-weight: bold;
+    outline: 1px solid #363636;
+    flex: 1;
+}
+  
+  .arithm-operator {
+    background-color: #ff8529;
+    color: #f8f8f8;
+}
