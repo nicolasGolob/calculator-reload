@@ -8,13 +8,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
+  position: relative;
 }
 
 .calculator-form {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 800px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 50%;
+
 }
 
 .row {

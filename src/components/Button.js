@@ -9,8 +9,7 @@ const Button = (props) => (
   <div
     className={`button-form ${
       isArithmOperator(props.children) ? null : "arithm-operator"
-    }`}
-  >
+    }`}>
     {props.children}
   </div>
 );
