@@ -5,7 +5,7 @@ const isArithmOperator = (number) => {
   return !isNaN(number) || number === '=' || number === '.';
 };
 
-const Button = (props) => (
+export const Button = (props) => (
   <div
     className={`button-form ${
       isArithmOperator(props.children) ? null : "arithm-operator"
@@ -14,4 +14,3 @@ const Button = (props) => (
   </div>
 );
 
-export default Button;
