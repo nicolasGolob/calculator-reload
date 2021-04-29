@@ -8,7 +8,7 @@ const isArithmOperator = (number) => {
 export const Button = (props) => (
   <div
     className={`button-form ${
-      isArithmOperator(props.children) ? null : "arithm-operator"
+      isArithmOperator(props.children) ? null : "operator"
     }`}
     onClick={()=>props.handleClick(props.children)}
     >
