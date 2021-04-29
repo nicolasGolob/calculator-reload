@@ -1,13 +1,13 @@
-.input{
-    height:4em;
+.input-calc{
+    height:98px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-weight: bold;
-    font-size:1.4em;
+    font-size:23px;
     background-color: rgb(3, 3, 3);
     color: rgb(233, 233, 233);
-    padding: 0.5em;
+    padding: 10px;
     outline:1px solid #8888;
 }
 
