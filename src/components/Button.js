@@ -9,7 +9,9 @@ export const Button = (props) => (
   <div
     className={`button-form ${
       isArithmOperator(props.children) ? null : "arithm-operator"
-    }`}>
+    }`}
+    onClick={()=>props.handleClick(props.children)}
+    >
     {props.children}
   </div>
 );

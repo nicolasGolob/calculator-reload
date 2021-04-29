@@ -8,7 +8,7 @@
     background-color: rgb(3, 3, 3);
     color: rgb(233, 233, 233);
     padding: 10px;
-    outline:1px solid #8888;
+    outline:1px solid rgba(0, 0, 0, 0.533);
 }
 
 .operator{
