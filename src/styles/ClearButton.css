@@ -2,9 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:50px;
+    height:40px;
     font-weight: lighter;
-    font-size:20px;
+    font-size:17px;
+    cursor: pointer;
     background-color:  #3f3f3f;
     color:rgb(190, 190, 190);
     outline: 1px solid #888888;

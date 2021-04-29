@@ -1,14 +1,14 @@
 .input-calc{
-    height:98px;
+    height:110px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-weight: bold;
-    font-size:23px;
+    font-size:37px;
     background-color: rgb(3, 3, 3);
     color: rgb(233, 233, 233);
     padding: 10px;
-    outline:1px solid rgba(0, 0, 0, 0.533);
+    outline:2px solid rgba(0, 0, 0, 0.533);
 }
 
 .operator{
