@@ -22,7 +22,9 @@ class App extends Component{
 
   render(){ 
     return(
-      <div className="container">
+
+      <div className="container-calc">
+        <h1 className="title">Calculator</h1>
         <div className="calculator-form">
           <Input input={this.state.input}></Input>
           <div className="row">
@@ -50,7 +52,7 @@ class App extends Component{
             <Button handleClick={this.addInput}>+</Button>
           </div>
           <div className="row">
-            <ClearButton handleClear={()=>this.setState({input: " "})}>AC</ClearButton>
+            <ClearButton handleClear={()=>this.setState({input: " "})}>Reset</ClearButton>
           </div>
         </div>
       </div>

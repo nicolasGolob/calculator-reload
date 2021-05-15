@@ -5,14 +5,14 @@
     height: 80px;
     font-size: 20px;
     background-color: #818181;
-    color: #dfdfdf;
+    color: #c7c7c7;
     font-weight: bold;
-    outline: 1px solid #363636;
+    outline: 1px solid #acacac;
     flex: 1;
     cursor: pointer;
 }
   
   .arithm-operator {
-    background-color: #ff8529;
+    background-color: #f88024;
     color: #f8f8f8;
 }
